@@ -1,13 +1,22 @@
 <template>
-  <div>首页</div>
+  <div>
+    <pl-map></pl-map>
+  </div>
 </template>
 
 <script>
+import map from '@/components/view/map'
 export default {
-  name: "index"
+  name: "index",
+  components: {
+    'pl-map': map
+  }
 }
 </script>
 
 <style scoped>
+
+</style>
+<style>
 
 </style>
